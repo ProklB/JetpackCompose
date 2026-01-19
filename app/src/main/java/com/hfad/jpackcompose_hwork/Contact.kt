@@ -1,12 +1,15 @@
 package com.hfad.jpackcompose_hwork
 
+import androidx.compose.runtime.Immutable
+
+@Immutable
 data class Contact(
-    val name: String, //Имя
-    val surname: String? = null, //Отчество
-    val familyName: String, //Фамилия
-    val imageRes: Int? = null,//Ресурс фотографии
-    val isFavorite: Boolean = false,//Признак избранного контакта
-    val phone: String, //Телефон
-    val address: String, //Адрес
-    val email: String? = null, //E-mail
+    val name: String,
+    val surname: String? = null,
+    val familyName: String,
+    val imageRes: Int? = null,
+    val isFavorite: Boolean = false,
+    val phone: String,
+    val address: String,
+    val email: String? = null,
 )
