@@ -7,4 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="status_bar_color">#1E2A5E</color>
+    <color name="app_bar_color">#4B3FB5</color>
+    <color name="background_color">#FFFFFF</color>
+    <color name="star_color">#FFFFC107</color>
+    <color name="gray_for_circle">#FF808080</color>
 </resources>
